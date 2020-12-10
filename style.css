@@ -1,0 +1,85 @@
+body {
+    background-color: transparent;
+}
+
+.header,.footer {
+    background-color: #f9f9f9;
+    
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.container {
+    width: 960px;
+}
+
+.title h1 {
+    font-weight: normal;
+    font-size: 48px;
+    align-self: flex-end;
+}
+
+p {
+    font-size: 12px;
+}
+
+.header-logo {
+    cursor: pointer;  
+}
+
+.header-logo img {
+    width: auto;
+}
+
+.canva {
+    background: url(./src/assets/header.png) repeat-x bottom left;
+    width: 100%;
+    height: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(34, 60, 80, 0.2);
+    background-color: #eee;
+}
+
+.main {
+    background-color: #eeeeee;
+}
+
+.comments {
+    padding: 20px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.comments-block {
+    padding: 5px 0;
+}
+
+.comments__time, .comments__date {
+    font-size: 11px;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.comment-form-block {
+    padding-bottom: 50px;
+}
+
+#exampleFormControlTextarea {
+    background-color: transparent;
+    border: 2px solid black;
+    resize: none;
+}
+
+.bordered {
+    border: 2px solid black;  
+}
+
+.footer-logo {
+    width: 70%;
+}
+
+.footer-info__c {
+    font-size: 12px;
+}
